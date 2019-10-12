@@ -8,13 +8,18 @@ function load() {
 	person = json[id].value; // value is an obj that contains name, year, major, hometown, paragraph
 	console.log("alsdk;fklsd");
 
-	// putting the 
+	// putting the data in the html
 	document.getElementById("name").innerHTML = person.name;
 	document.getElementById("role").innerHTML = person.role;
 	document.getElementById("year").innerHTML = person.year;
 	document.getElementById("major").innerHTML = person.major;
 	document.getElementById("hometown").innerHTML = person.hometown;
 	document.getElementById("paragraph").innerHTML = person.paragraph;
+	
+
+	// let link = document.getElementById("link");
+	// link.href = link.href + "?id=" + id;
+
 
 	img1_file = "Photos/" + person.name.split(" ")[0] + "1.JPG";
 	img2_file = "Photos/" + person.name.split(" ")[0] + "2.JPG";
