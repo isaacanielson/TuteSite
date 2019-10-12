@@ -32,8 +32,27 @@ center {
   }
 }
 
-.img-container {
+.img-container-left {
   float: left;
-  width: 33.33%; /* three containers (use 25% for four, and 50% for two, etc) */
-  padding: 5px; /* if you want space between the images */
+  width: 20%; /* three containers (use 25% for four, and 50% for two, etc) */
+  padding-left: 100px; /* if you want space between the images */
+}
+.img-container {
+    float: left;
+    width: ; /* three containers (use 25% for four, and 50% for two, etc) */
+    padding-left: 0px; /* if you want space between the images */
+}
+.img-container-right{
+    float: left;
+    width: 20%; /* three containers (use 25% for four, and 50% for two, etc) */
+    padding-right: 100px; /* if you want space between the images */
+}
+
+.clearfix {
+  overflow: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
