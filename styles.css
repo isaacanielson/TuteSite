@@ -13,3 +13,31 @@ center {
   font-size: 500%
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+    width: 130px;
+    height: 195px;
+    background: url("images/card-back.jpg") no-repeat;
+    display: inline-block;
+}
+.card:hover {
+    background: url("images/card-front.jpg") no-repeat;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
