@@ -163,4 +163,25 @@ body {margin:0;font-family:Arial}
 .dropdown:hover .dropdown-content {
   display: block;
 }
->>>>>>> 0c365692784de99b31b23b2edabc2c00bef72530
+.img {
+	width: 50%;
+	height: 100%;
+}
+@media screen and (max-width: 600px) {
+.img {
+	width: 100%;
+	}
+}
+span {}
+@media screen and (min-width: 601px) {
+	span {
+			float: none;
+		}
+	}
+@media screen and (max-width: 600px) {
+	span {
+		float: left;
+		margin: 2%;
+		}
+	}
+
