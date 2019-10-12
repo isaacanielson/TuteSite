@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
      <link rel="stylesheet" href="styles.css">
+     <script type="text/javascript" src="fake_people_json.js"></script>
+
 
     <style>
         h3 {text-align: center;
@@ -19,7 +21,8 @@
     </style>
 
 </head>
-<body onload="buildphotos()">
+<body>
+<!-- <body onload="buildphotos()"> -->
     <h1> The Institute </h1>
     <h2> Sketch Comedy </h2>
     <div class="topnav" id="myTopnav">
@@ -44,7 +47,10 @@
     </div>
 
 	<h3> Meet The Tute! </h3>
-	<!-- <img src= "Photos/Sara1.jpg" width = "100" height = "150"> -->
+	<div id = pers></div>
+	<div id = pers></div>
+	<div id = pers></div>
+	
 
 	<div class="clearfix">
 
@@ -56,7 +62,7 @@
 
 			<a id='link' href="profile.html?id=0">
             <div id = "0"></div>
-	        	<!-- <img src='Photos/Sara1.JPG' onmouseover="this.src='Photos/Sara2.JPG';"\
+	        	<img src='Photos/Sara1.JPG' onmouseover="this.src='Photos/Sara2.JPG';"\
 	        onmouseout="this.src='Photos/Sara1.JPG';" width="200" height="300" alt="photo of Sara" class = "center"/></a>
 
 	        <div class = "padding"></div>
@@ -78,30 +84,46 @@
 	        <a id='link' href="profile.html?id=4">
 	        <img src='Photos/Brandon1.JPG' onmouseover="this.src='Photos/Brandon2.JPG';"\
 	        onmouseout="this.src='Photos/Brandon1.JPG';" width="200" height="300" alt="photo of Brandon"class = "center"/></a>
-	        <div class = "padding_edges"></div> -->
+	        <div class = "padding_edges"></div> 
 	    </div>
 	<br>
 	<h4> Class of 2021 </h4>
 	<br>
 	<div class="img-row">
 	    <div class = "padding_edges"></div>
-	    <img src='Photos/Eden1.JPG' onmouseover="this.src='Photos/Eden2.JPG';"\
-	    onmouseout="this.src='Photos/Eden1.JPG';" width="200" height="300" alt="photo of Eden" class = "center"/>
+	    <a id='link' href="profile.html?id=5">
+	    <img src='Photos/Sana1.JPG' onmouseover="this.src='Photos/Sana2.JPG';"\
+	    onmouseout="this.src='Photos/Sana1.JPG';" width="200" height="300" alt="photo of Sana" class = "center"/></a>
+
 	    <div class = "padding"></div>
-	    <img src='Photos/Emai1.JPG' onmouseover="this.src='Photos/Emai2.JPG';"\
-	    onmouseout="this.src='Photos/Emai1.JPG';" width="200" height="300" alt="photo of Emai" class = "center"/>
+	    <a id='link' href="profile.html?id=6">
+	    
+
+
+
+	    </a>
+
 	    <div class = "padding"></div>
+	    <a id='link' href="profile.html?id=7">
 	    <img src='Photos/Sara1.JPG' onmouseover="this.src='Photos/Sara2.JPG';"\
-	    onmouseout="this.src='Photos/Sara1.JPG';" width="200" height="300" alt="photo of Sara"class = "center"/>
+	    onmouseout="this.src='Photos/Sara1.JPG';" width="200" height="300" alt="photo of Sara"class = "center"/></a>
+
 	    <div class = "padding"></div>
+	    <a id='link' href="profile.html?id=8">
+
+	    <img src='Photos/Emai1.JPG' onmouseover="this.src='Photos/Emai2.JPG';"\
+	    onmouseout="this.src='Photos/Emai1.JPG';" width="200" height="300" alt="photo of Emai" class = "center"/></a>
+
+	    <div class = "padding"></div>
+	    <a id='link' href="profile.html?id=9">
+	    <img src='Photos/Eden1.JPG' onmouseover="this.src='Photos/Eden2.JPG';"\
+	    onmouseout="this.src='Photos/Eden1.JPG';" width="200" height="300" alt="photo of Eden"class = "center"/></a>
+
+	    <div class = "padding"></div>
+	    <a id='link' href="profile.html?id=10">
 	    <img src='Photos/Will1.JPG' onmouseover="this.src='Photos/Will2.JPG';"\
-	    onmouseout="this.src='Photos/Will1.JPG';" width="200" height="300" alt="photo of Will"class = "center"/>
-	    <div class = "padding"></div>
-	    <img src='Photos/Brandon1.JPG' onmouseover="this.src='Photos/Brandon2.JPG';"\
-	    onmouseout="this.src='Photos/Brandon1.JPG';" width="200" height="300" alt="photo of Brandon"class = "center"/>
-	    <div class = "padding"></div>
-	    <img src='Photos/Brandon1.JPG' onmouseover="this.src='Photos/Brandon2.JPG';"\
-	    onmouseout="this.src='Photos/Brandon1.JPG';" width="200" height="300" alt="photo of Brandon"class = "center"/>
+	    onmouseout="this.src='Photos/Will1.JPG';" width="200" height="300" alt="photo of Will"class = "center"/></a>
+
 	    <div class = "padding_edges"></div>
 	</div>
 	<br>
@@ -109,14 +131,17 @@
 	<br>
 	<div class="img-row">
 	    <div class = "padding_edges"></div>
-	    <img src='Photos/Andrew1.JPG' onmouseover="this.src='Photos/Andrew2.JPG';"\
-	    onmouseout="this.src='Photos/Andrew1.JPG';" width="200" height="300" alt="photo of Andrew" class = "center"/>
-	    <div class = "padding"></div>
+	    <a id='link' href="profile.html?id=11">
 	    <img src='Photos/Dariush1.JPG' onmouseover="this.src='Photos/Dariush2.JPG';"\
-	    onmouseout="this.src='Photos/Dariush1.JPG';" width="200" height="300" alt="photo of Dariush" class = "center"/>
+	    onmouseout="this.src='Photos/Dariush1.JPG';" width="200" height="300" alt="photo of Dariush" class = "center"/></a>
 	    <div class = "padding"></div>
-	    <img src='Photos/Brandon1.JPG' onmouseover="this.src='Photos/Brandon2.JPG';"\
-	    onmouseout="this.src='Photos/Brandon1.JPG';" width="200" height="300" alt="photo of Brandon"class = "center"/>
+	    <a id='link' href="profile.html?id=12">
+	    <img src='Photos/Bota1.JPG' onmouseover="this.src='Photos/Bota2.JPG';"\
+	    onmouseout="this.src='Photos/Bota1.JPG';" width="200" height="300" alt="photo of Bota" class = "center"/></a>
+	    <div class = "padding"></div>
+	    <a id='link' href="profile.html?id=13">
+	    <img src='Photos/Andrew1.JPG' onmouseover="this.src='Photos/Andrew2.JPG';"\
+	    onmouseout="this.src='Photos/Andrew1.JPG';" width="200" height="300" alt="photo of Andrew"class = "center"/></a>
 	    <div class = "padding_edges"></div>
 	</div>
 	<br>
@@ -124,16 +149,20 @@
 	<br>
 	<div class="img-row">
 	    <div class = "padding_edges"></div>
+	    <a id='link' href="profile.html?id=14">
 	    <img src='Photos/Max1.JPG' onmouseover="this.src='Photos/Max2.JPG';"\
-	    onmouseout="this.src='Photos/Max1.JPG';" width="200" height="300" alt="photo of Max" class = "center"/>
+	    onmouseout="this.src='Photos/Max1.JPG';" width="200" height="300" alt="photo of Max" class = "center"/></a>
 	    <div class = "padding"></div>
+	    <a id='link' href="profile.html?id=15">
 	    <img src='Photos/Dariush1.JPG' onmouseover="this.src='Photos/Dariush2.JPG';"\
-	    onmouseout="this.src='Photos/Dariush1.JPG';" width="200" height="300" alt="photo of Dariush" class = "center"/>
+	    onmouseout="this.src='Photos/Dariush1.JPG';" width="200" height="300" alt="photo of Dariush" class = "center"/></a>
 	    <div class = "padding"></div>
+	    <a id='link' href="profile.html?id=16">
 	    <img src='Photos/Brandon1.JPG' onmouseover="this.src='Photos/Brandon2.JPG';"\
-	    onmouseout="this.src='Photos/Brandon1.JPG';" width="200" height="300" alt="photo of Brandon"class = "center"/>
+	    onmouseout="this.src='Photos/Brandon1.JPG';" width="200" height="300" alt="photo of Brandon"class = "center"/></a>
+	    <a id='link' href="profile.html?id=17">
 	    <img src='Photos/Andrew1.JPG' onmouseover="this.src='Photos/Andrew2.JPG';"\
-	    onmouseout="this.src='Photos/Andrew1.JPG';" width="200" height="300" alt="photo of Andrew" class = "center"/>
+	    onmouseout="this.src='Photos/Andrew1.JPG';" width="200" height="300" alt="photo of Andrew" class = "center"/></a>
 	    <div class = "padding_edges"></div>
 	</div>
 	<br>
@@ -144,6 +173,11 @@
 
 <script>
 	function buildphotos() {
+
+		var json = data;
+		var query = window.location.search.substring(1);
+
+		var id = query.split("=")[1]
 		var people = data.map(function(person) {
 			var personElement = document.createElement("a");
 			personElement.setAttribute("href","profile.html?id=" + person.id);
@@ -154,8 +188,8 @@
 			photo.setAttribute("class","center");
 
 			// getting photo address for specific person
-			img1_file = "Photos/" + person.value.name.split(" ")[0] + "1.JPG";
-			img2_file = "Photos/" + person.value.name.split(" ")[0] + "2.JPG";
+			img1_file = "Photos/" + person.value.name.split(" ")[person.id] + "1.JPG"; // FIX NUMBER
+			img2_file = "Photos/" + person.value.name.split(" ")[person.id] + "2.JPG";
 
 
 			photo.onmouseover = function() { this.src = img2_file };
@@ -163,21 +197,46 @@
 
 			personElement.appendChild(photo);
 
+
+			//console.log("personElement is " + personElement);
+
 			return personElement;
 		});
+		
+		console.log(people);
+		console.log("HI " + people[0]);
+		// create doc fragment ( collection of elements to be added)
+		// add all ppl to doc frag using append child
+		// div id in html
+		// get elementbyId
+		// appendchild(doc fragment)
 
-        var fragment = document.createDocumentFragment();
-        fragement = fragment.appendChild();
-        document.getElementById("0").appendChild(fragment);
+		//let fragment = new DocumentFragment();
+
+		//var fragment = document.createDocumentFragment("div");
+		//fragment.setAttribute("class","left");
+
+        //fragment.appendChild(people[0]);
+        //document.getElementById("0").appendChild(fragment).innerHTML;
+
+
+        var element  = document.getElementById("pers"); // assuming ul exists
+		var fragment = document.createDocumentFragment();
+	
+
+		people.forEach(function(people) {
+		    var pers = document.createElement("pers");
+		    pers.textContent = people;
+		    fragment.appendChild(pers);
+		});
+
+		element.appendChild(fragment);
+
+  
 	}
 
 </script>
 
 
-		 <div class = "padding_edges"></div>
-
-			<a id='link' href="profile.html?id=0">
-	        	<img src='Photos/Sara1.JPG' onmouseover="this.src='Photos/Sara2.JPG';"\
-	        onmouseout="this.src='Photos/Sara1.JPG';" width="200" height="300" alt="photo of Sara" class = "center"/></a>
 
 </html>
