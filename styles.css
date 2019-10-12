@@ -7,3 +7,9 @@ h1 {
 p {
   color: #3E7CB1;
 }
+center {
+  color: red;
+  font-family: "Comic Sans MS";
+  font-size: 500%
+}
+
