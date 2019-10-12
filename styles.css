@@ -5,6 +5,7 @@ h1 {
   color: #054A91; /* Dark Blue */
   display: inline-block;
   margin-right:10px;
+  font-size:4vw;
 }
 
 
@@ -95,21 +96,23 @@ body {margin:0;font-family:Arial}
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #054A91;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color:  #F17300;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: Tahoma;
+  font-weight: bold;
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #3E7CB1;
   color: white;
 }
 
