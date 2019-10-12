@@ -21,8 +21,8 @@ function load() {
 	// link.href = link.href + "?id=" + id;
 
 // getting photo address for specific person
-	img1_file = "Photos/" + person.name.split(" ")[0] + "1.JPG";
-	img2_file = "Photos/" + person.name.split(" ")[0] + "2.JPG";
+	img1_file = "Photos/" + person.name.split(" ")[0] + "1.jpg";
+	img2_file = "Photos/" + person.name.split(" ")[0] + "2.jpg";
 	
 
 	img_elem = document.getElementById("img");
