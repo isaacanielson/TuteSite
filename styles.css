@@ -1,19 +1,17 @@
 body {
-  background-color: powderblue;
+  background-color: #FFFFF9;
 }
 h1 {
-  color: blue;
+  color: #054A91;
 }
 p {
-  color: red;
+  color: #3E7CB1;
 }
 center {
   color: red;
   font-family: "Comic Sans MS";
   font-size: 500%
 }
-
-
 
 .column {
   float: left;
@@ -33,3 +31,4 @@ center {
     width: 100%;
   }
 }
+
