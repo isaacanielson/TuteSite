@@ -50,7 +50,8 @@
 	        <div class = "padding_edges"></div>
 
 			<a id='link' href="profile.html?id=0">
-	        	<img src='Photos/Sara1.JPG' onmouseover="this.src='Photos/Sara2.JPG';"\
+            <div id = "0"></div>
+	        	<!-- <img src='Photos/Sara1.JPG' onmouseover="this.src='Photos/Sara2.JPG';"\
 	        onmouseout="this.src='Photos/Sara1.JPG';" width="200" height="300" alt="photo of Sara" class = "center"/></a>
 
 	        <div class = "padding"></div>
@@ -71,8 +72,8 @@
 	        <div class = "padding"></div>
 	        <a id='link' href="profile.html?id=4">
 	        <img src='Photos/Brandon1.JPG' onmouseover="this.src='Photos/Brandon2.JPG';"\
-	        onmouseout="this.src='Photos/Bradon1.JPG';" width="200" height="300" alt="photo of Brandon"class = "center"/></a>
-	        <div class = "padding_edges"></div>
+	        onmouseout="this.src='Photos/Brandon1.JPG';" width="200" height="300" alt="photo of Brandon"class = "center"/></a>
+	        <div class = "padding_edges"></div> -->
 	    </div>
 	<br>
 	<h4> Class of 2021 </h4>
@@ -160,7 +161,9 @@
 			return personElement;
 		});
 
-
+        var fragment = document.createDocumentFragment();
+        fragement = fragment.appendChild();
+        document.getElementById("0").appendChild(fragment);
 	}
 
 </script>
