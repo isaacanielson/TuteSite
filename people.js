@@ -6,7 +6,7 @@ function load() {
 
 	var id = query.split("=")[1]
 	person = json[id].value; // value is an obj that contains name, year, major, hometown, paragraph
-	console.log("alsdk;fklsd");
+	
 
 	// putting the data in the html
 	document.getElementById("name").innerHTML = person.name;
@@ -20,10 +20,9 @@ function load() {
 	// let link = document.getElementById("link");
 	// link.href = link.href + "?id=" + id;
 
-
+// getting photo address for specific person
 	img1_file = "Photos/" + person.name.split(" ")[0] + "1.JPG";
 	img2_file = "Photos/" + person.name.split(" ")[0] + "2.JPG";
-	console.log(img2_file);
 	
 
 	img_elem = document.getElementById("img");
