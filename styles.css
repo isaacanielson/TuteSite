@@ -2,10 +2,23 @@ body {
   background-color: #FFFFF9;
 }
 h1 {
-  color: #054A91;
+  color: #054A91; /* Dark Blue */
+  display: inline-block;
+  margin-right:10px;
+}
+
+
+h2{ /* this is for profile page */
+	color: #6A6A6A; /* Grey */
+	font-family: "Tahoma";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	display: inline-block;
+	margin-right:10px
 }
 p {
-  color: #3E7CB1;
+  color: #3E7CB1; /* Medium Blue */
 }
 center {
   color: red;
@@ -25,6 +38,26 @@ center {
   clear: both;
 }
 
+#meet{
+	font-family: "Tahoma";
+	color: #ff9999; 
+	font-size: 100%
+}
+#name {
+	font-family: "Tahoma";
+	color: #054A91; /* Dark Blue */
+	font-size: 300%
+
+}
+
+#cat {
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: #3E7CB1; /* Medium Blue */
+}
 
 @media screen and (max-width: 600px) {
   .column {
@@ -32,10 +65,29 @@ center {
   }
 }
 
-.img-container {
+.img-container-left {
   float: left;
-  width: 33.33%; /* three containers (use 25% for four, and 50% for two, etc) */
-  padding: 5px; /* if you want space between the images */
+  width: 20%; /* three containers (use 25% for four, and 50% for two, etc) */
+  padding-left: 100px; /* if you want space between the images */
+}
+.img-container {
+    float: left;
+    width: ; /* three containers (use 25% for four, and 50% for two, etc) */
+    padding-left: 0px; /* if you want space between the images */
+}
+.img-container-right{
+    float: left;
+    width: 20%; /* three containers (use 25% for four, and 50% for two, etc) */
+    padding-right: 100px; /* if you want space between the images */
+}
+
+.clearfix {
+  overflow: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
 ul {
