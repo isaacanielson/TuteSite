@@ -4,7 +4,7 @@
 		<link rel="stylesheet" href="styles.css">
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width", initial-scale=1, shrink-to-fit=no>
-		<title>Document</title>
+		<title>TuteSite</title>
 		<style>
 			h1 {display:inline-block; margin-right:10px}
 		</style>
@@ -13,8 +13,8 @@
 		<h1> The Institute </h1> 
 		<h2> Sketch Comedy </h2>
 		<div class="topnav" id="myTopnav">
- 			<a href="index.html">Home</a>
-  			<a href="about.html" class="active">About</a>
+ 			<a href="index.html" class="active">Home</a>
+  			<a href="about.html">About</a>
   			<a href="meetus.html">Meet Us</a>
   			<a href="https://www.youtube.com/user/TUTVInstitute/featured">Videos</a>
   			<div class="dropdown">
@@ -32,16 +32,15 @@
   		</div> 
   		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
   	</div>
-	<div class="text">
-		<p class = "img">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/v-J7Rx2vjwI" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture; allowfullscreen style="float:left; margin-right: 5%"></iframe>
- 		 </p>
- 		 <p style="font-size:3vw;"> <span>Hello! We are The Institute, and we perform 6 shows a year, including a full length musical that we write, direct and produce ourselves. Our next show is on November 8th at 9pm in Barnum 008! </span></p>
+
+		<div class="text">
+			<p class = "img">
+ 		 	<img src="Photos/tutegroup.jpg" alt="group photo" style="float:left;width:100%;height:100%; object-fit:cover;  margin-right: 5%;"> </p>
+ 		 	<p style="font-size:3vw;"> <span>Welcome to The Institute Sketch Comedy's home page! We are a sketch comedy group at Tufts that performs 6 shows a year, with both live and video sketches. If you want to know more, click on the About Us page!</span></p>
 		</div>
-	</div>
 	</body>
 	<script>
-	function myFunction() {
+		function myFunction() {
   		var x = document.getElementById("myTopnav");
   		if (x.className === "topnav") {
     	x.className += " responsive";
@@ -49,6 +48,5 @@
     	x.className = "topnav";
   		}
 	}
-</script>
-</html>	
-
+	
+</html>
