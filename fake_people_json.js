@@ -5,11 +5,11 @@ var data =
 		"value": 
 		{
 			"name": "Sara Dakin", 
-			"role": "Actor",
+			"role": "President",
 			"year": "2020",
 			"major": "Clinical Pscyhology",
 			"hometown":"Philadelpia, PA",
-			"paragraph": "stuff"
+			"paragraph": "Why comedy? Because theatre felt too easy"
 		}
 	},
 	{
@@ -17,11 +17,11 @@ var data =
 		"value": 
 		{
 			"name": "Isaac Nielson",
-			"role": "Actor", 
+			"role": "Producer", 
 			"year": "2020",
 			"major": "Computer Science",
-			"hometown":"na",
-			"paragraph": "na"
+			"hometown":"Salt Lake City",
+			"paragraph": "Why comedy? Because I've always enjoyed making people laugh. Even if you've had a bad day or something terrible has happened, you can still find joy in laughter and giving a person that needed a chuckle that day makes it worth it."
 		}
 	},
 	{
@@ -29,11 +29,11 @@ var data =
 		"value": 
 		{
 			"name": "Darren Rubin", 
-			"role": "Writer, Actor, Filmmaker",
+			"role": "Head Writer",
 			"year": "2020",
 			"major": "Child Development, Film & Media Studies ",
 			"hometown":"Los Angeles, CA",
-			"paragraph": "a "
+			"paragraph": "Why comedy? Because I do it all"
 		}
 	},
 	{
@@ -44,8 +44,8 @@ var data =
 			"role": "Writer, Actor",
 			"year": "2020",
 			"major": "Theatre",
-			"hometown":" ",
-			"paragraph": " "
+			"hometown":"Backstage",
+			"paragraph": "Why comedy? For the <3 people <3"
 		}
 	},
 	{
@@ -55,9 +55,9 @@ var data =
 			"name": "Brandon Lee", 
 			"role": "Writer, Actor",
 			"year": "2020",
-			"major": "Econ?",
+			"major": "Econ",
 			"hometown":"___, Virginia",
-			"paragraph": "Yes"
+			"paragraph": "Why comedy? Yes"
 		}
 	},
 	{
@@ -65,11 +65,11 @@ var data =
 		"value": 
 		{
 			"name": "Sana Aladin", 
-			"role": "Actor",
+			"role": "Actor/PR",
 			"year": "2021",
 			"major": "Psychology?",
 			"hometown":"__, California",
-			"paragraph": "In elementary school I made friends by imitating my teachers and making people laugh! I soon realized this was my only valuable skill because I have zero athleticism or artistic ability. Doing comedy makes me smile and sometimes makes other people smile so yeah I guess it's a good time! A fun fact about me is that I was in a high school production of High School Musical on Stage and got to meet Corbin Bleu! Also I have a tattoo of a pretzel. "
+			"paragraph": "Why comedy? In elementary school I made friends by imitating my teachers and making people laugh! I soon realized this was my only valuable skill because I have zero athleticism or artistic ability. Doing comedy makes me smile and sometimes makes other people smile so yeah I guess it's a good time! A fun fact about me is that I was in a high school production of High School Musical on Stage and got to meet Corbin Bleu! Also I have a tattoo of a pretzel. "
 		}
 	},
 	{
@@ -80,8 +80,8 @@ var data =
 			"role": "Writer, Actor",
 			"year": "2021",
 			"major": " Cognitive Brain Studies, Film & Media Studies",
-			"hometown":" ",
-			"paragraph": " "
+			"hometown":"The streets",
+			"paragraph": "I don't answer questions"
 		}
 	},
 	{
@@ -91,9 +91,9 @@ var data =
 			"name": "Isabella Jarosz", 
 			"role": "Writer",
 			"year": "2021",
-			"major": " ",
-			"hometown":" ",
-			"paragraph": " "
+			"major": "Potholes",
+			"hometown":"The streets",
+			"paragraph": "I'm abroad"
 		}
 	},
 	{
@@ -103,8 +103,8 @@ var data =
 			"name": "Emai Lai", 
 			"role": "Filmmaker",
 			"year": "2021",
-			"major": " ",
-			"hometown":" ",
+			"major": "Human Factors Engineering, minors in FMS and CS",
+			"hometown":"Andover, MA",
 			"paragraph": "I loved writing, filming, and acting in cheesy video sketches with my high school friends, and now I get to do so with some of the most creative and dedicated people I know at Tufts! "
 		}
 	},
@@ -128,7 +128,7 @@ var data =
 			"role": "Actor",
 			"year": "2021",
 			"major": "Film & Media Studies and something else",
-			"hometown":" ",
+			"hometown":"Somewhere in Idaho",
 			"paragraph": "Why comedy? It makes me feel good and it makes others happy :) i tried a peanut butter and hummus sandwich, it's not as bad as you might think"
 		}
 	},
@@ -141,7 +141,7 @@ var data =
 			"year": "2022",
 			"major": "Film & Media Studies and Biopsych???",
 			"hometown":"Lincoln, MA",
-			"paragraph": " "
+			"paragraph": "I film things and throw cool parties"
 		}
 	},
 	{
@@ -152,8 +152,8 @@ var data =
 			"role": "Writer",
 			"year": "2022",
 			"major": "Anthropology",
-			"hometown":" ",
-			"paragraph": " "
+			"hometown":"Town home",
+			"paragraph": "I speak Russian"
 		}
 	},
 	{
@@ -175,8 +175,8 @@ var data =
 			"name": "Max Behrendt", 
 			"role": "Writer",
 			"year": "2023",
-			"major": "",
-			"hometown":"",
+			"major": "Potholes",
+			"hometown":"The streets",
 			"paragraph": "There’s nothing better than making people laugh."
 		}
 	},
@@ -187,8 +187,8 @@ var data =
 			"name": "Ben Bortner", 
 			"role": "Filmmaker",
 			"year": "2023",
-			"major": "",
-			"hometown":"",
+			"major": "Potholes",
+			"hometown":"The streets",
 			"paragraph": "It was the first club I auditioned for on campus and after I got in I felt a bit obligated to keep going. Also, it’s a great group of people and I’ve loved being involved haha! Also, I’m an identical twin. If you ever observe me doing anything that you think is odd, ill-advised, or whatever else you may judge me for, assume it was him please. "
 		}
 	},
@@ -199,9 +199,9 @@ var data =
 			"name": "Charlotte Magee", 
 			"role": "Actor",
 			"year": "2023",
-			"major": "",
+			"major": "Potholes",
 			"hometown":"New York, New York",
-			"paragraph": ""
+			"paragraph": "I'm acting in a play!"
 		}
 	},
 	{
@@ -211,8 +211,8 @@ var data =
 			"name": "Zach Lowenstein", 
 			"role": "Writer",
 			"year": "2023",
-			"major": "",
-			"hometown":"",
+			"major": "Potholes",
+			"hometown":"The streets",
 			"paragraph": "I like to spread joy and laughter!"
 		}
 	}
