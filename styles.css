@@ -72,15 +72,6 @@ center {
   clear: both;
 }
 
-.card {
-    width: 130px;
-    height: 195px;
-    background: url("images/card-back.jpg") no-repeat;
-    display: inline-block;
-}
-.card:hover {
-    background: url("images/card-front.jpg") no-repeat;
-}
 
 @media screen and (max-width: 600px) {
   .column {
@@ -88,3 +79,8 @@ center {
   }
 }
 
+.img-container {
+  float: left;
+  width: 33.33%; /* three containers (use 25% for four, and 50% for two, etc) */
+  padding: 5px; /* if you want space between the images */
+}
