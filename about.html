@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width", initial-scale=1, shrink-to-fit=no>
+		<title>Document</title>
+		<style>
+			h1 {display:inline-block; margin-right:10px}
+		</style>
+	</head>
+	<body>
+		<h1> The Institute </h1> 
+		<h2> Sketch Comedy </h2>
+		<div class="topnav" id="myTopnav">
+ 			<a href="TuteSite.html">Home</a>
+  			<a href="about.html" class="active">About</a>
+  			<a href="meetus.html">Meet Us</a>
+  			<div class="dropdown">
+    			<button class="dropbtn">More 
+      				<i class="fa fa-caret-down"></i>
+    			</button>
+    		<div class="dropdown-content">
+     			<a href="sketchlife.html">Life of a Sketch</a>
+      			<a href="videos.html">Videos</a>
+   			</div>
+  		</div> 
+  		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  	</div>
+		
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/v-J7Rx2vjwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</body>
+	<script>
+	function myFunction() {
+  		var x = document.getElementById("myTopnav");
+  		if (x.className === "topnav") {
+    	x.className += " responsive";
+  		} else {
+    	x.className = "topnav";
+  		}
+	}
+</script>
+</html>	
+

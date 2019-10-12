@@ -3,8 +3,9 @@ body {
 }
 h1 {
   color: #054A91; /* Dark Blue */
-  display: inline-block;
+ /*display: inline-block;*/
   margin-right:10px;
+  font-size:4vw;
 }
 
 
@@ -40,7 +41,7 @@ center {
 
 #meet{
 	font-family: "Tahoma";
-	color: #ff9999; 
+	color: #ff9999;
 	font-size: 100%
 }
 #name {
@@ -64,23 +65,23 @@ center {
     width: 100%;
   }
 }
-
-.img-container-left {
-  float: left;
-  width: 20%; /* three containers (use 25% for four, and 50% for two, etc) */
-  padding-left: 100px; /* if you want space between the images */
+.img-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.img-container {
-    float: left;
-    width: ; /* three containers (use 25% for four, and 50% for two, etc) */
-    padding-left: 0px; /* if you want space between the images */
+.padding_edges{
+    flex-grow: 0.5;
+    flex-biased: 0;
 }
-.img-container-right{
-    float: left;
-    width: 20%; /* three containers (use 25% for four, and 50% for two, etc) */
-    padding-right: 100px; /* if you want space between the images */
+.padding{
+    flex-shrink: 2;
+    flex-basis: 10px;
 }
-
+img {
+    flex-basis: 200px;
+}
 .clearfix {
   overflow: auto;
 }
@@ -90,38 +91,49 @@ center {
   margin-right: auto
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+
+body {margin:0;font-family:Arial}
+
+.topnav {
   overflow: hidden;
-  background-color: #333;
-
-/* Code that allows sticky, but stops dropdown */
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
- 
+  background-color: #054A91;
 }
 
-li {
+.topnav a {
   float: left;
-}
-
-li a, .dropbtn {
-  display: inline-block;
-  color: white;
+  display: block;
+  color:  #F17300;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
+  font-family: Tahoma;
+  font-weight: bold;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+.active {
+  background-color: #3E7CB1;
+  color: white;
 }
 
-li.dropdown {
-  display: inline-block;
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
 }
 
 .dropdown-content {
@@ -134,6 +146,7 @@ li.dropdown {
 }
 
 .dropdown-content a {
+  float: none;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -141,8 +154,12 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+<<<<<<< HEAD
+.active {
+  background-color: #4CAF50;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
+>>>>>>> 0c365692784de99b31b23b2edabc2c00bef72530
