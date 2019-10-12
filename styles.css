@@ -3,7 +3,7 @@ body {
 }
 h1 {
   color: #054A91; /* Dark Blue */
-  display: inline-block;
+ /*display: inline-block;*/
   margin-right:10px;
 }
 
@@ -115,23 +115,23 @@ center {
     width: 100%;
   }
 }
-
-.img-container-left {
-  float: left;
-  width: 20%; /* three containers (use 25% for four, and 50% for two, etc) */
-  padding-left: 100px; /* if you want space between the images */
+.img-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.img-container {
-    float: left;
-    width: 33.33%; /* three containers (use 25% for four, and 50% for two, etc) */
-    padding-left: 0px; /* if you want space between the images */
+.padding_edges{
+    flex-grow: 0.5;
+    flex-biased: 0;
 }
-.img-container-right{
-    float: left;
-    width: 20%; /* three containers (use 25% for four, and 50% for two, etc) */
-    padding-right: 100px; /* if you want space between the images */
+.padding{
+    flex-shrink: 2;
+    flex-basis: 10px;
 }
-
+img {
+    flex-basis: 200px;
+}
 .clearfix {
   overflow: auto;
 }
@@ -152,7 +152,7 @@ ul {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
- 
+
 }
 
 li {
