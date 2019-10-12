@@ -140,7 +140,7 @@ var data =
 			"role": "Filmmaker",
 			"year": "2022",
 			"major": "Film & Media Studies and Biopsych???",
-			"hometown":" ",
+			"hometown":"Lincoln, MA",
 			"paragraph": " "
 		}
 	},
@@ -151,7 +151,7 @@ var data =
 			"name": "Bota Saudabayeva", 
 			"role": "Writer",
 			"year": "2022",
-			"major": " ",
+			"major": "Anthropology",
 			"hometown":" ",
 			"paragraph": " "
 		}
