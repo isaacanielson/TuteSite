@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width", initial-scale=1, shrink-to-fit=no>
+		<title>TuteSite</title>
+		<style>
+			h1 {display:inline-block; margin-right:10px}
+		</style>
+	</head>
+	<body>
+		<h1> The Institute </h1> 
+		<h2> Sketch Comedy </h2>
+		<div class="topnav" id="myTopnav">
+ 			<a href="TuteSite.html" class="active">Home</a>
+  			<a href="about.html">About</a>
+  			<a href="meetus.html">Meet Us</a>
+  			<a href="https://www.youtube.com/user/TUTVInstitute/featured">Videos</a>
+  			<div class="dropdown">
+    			<button class="dropbtn">More 
+      				<i class="fa fa-caret-down"></i>
+    			</button>
+    		<div class="dropdown-content">
+     			<a href="sketchlife.html">Life of a Sketch</a>
+     			<li class="dropdown-submenu">
+     				<a href="#">Other Comedy</a>
+     				<li><a tabindex="-1" href="https://www.facebook.com/MajorUndecided/">Major: Undecided</a></li>
+     				<li><a href="https://www.facebook.com/cheapsox/">Cheap Sox</a></li>
+  					<li><a href="https://tflcomedy.wordpress.com/">TFL</a></li>
+  					<li><a href="https://www.facebook.com/TuftsStandUp/">Stand Up</a></li>
+  					<li><a href="http://www.tuftszamboni.com/">Zamboni</a></li>
+   			</div>
+  		</div> 
+  		<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  		
+	</body>
+	<script>
+		function myFunction() {
+  		var x = document.getElementById("myTopnav");
+  		if (x.className === "topnav") {
+    	x.className += " responsive";
+  		} else {
+    	x.className = "topnav";
+  		}
+	}
+	
+</html>
