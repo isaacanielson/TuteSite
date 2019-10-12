@@ -1,0 +1,20 @@
+[
+	{
+		"id": "1",
+		"value": 
+		{
+			"name": "Andrew", 
+			"year": "2022",
+			"major": "Computer Science",
+			"paragraph": "stuff"
+	},
+		"id": "2",
+		"value": 
+		{
+			"name": "Sara", 
+			"year": "2020",
+			"major": "Clinical Pscyhology",
+			"paragraph": "stuff"
+		}
+	}
+]
